@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve",
-    "dev": "webpack --mode development --watch --entry ./src/index.js",
-    "build": "webpack"
+    "dev": "webpack serve",
+    "start": "node server.js",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "@material-ui/icons": "^4.11.2",
     "axios": "^0.21.1",
     "css-loader": "^5.2.6",
+    "express": "^4.17.1",
     "file-loader": "^6.2.0",
     "react": "^17.0.2",
     "react-alert": "^7.0.3",
